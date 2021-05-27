@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+	background: linear-gradient(to right, #363635, #40413f);
+	
+}
+.icon{
+	color:#046077;
+
+}
+
+.resume{
+	width:8.62in;
+	height: 12.2in;
+	background: #fff;
+	margin-left:auto;
+	margin-right: auto;
+	
+	
+	-webkit-box-shadow: 0 0 50px rgb(46, 46, 44);
+        box-shadow: 50 50 50px rgb(253, 253, 253);
+}
+.left_right{
+	display: flex;
+}
+.name_image{
+	display: flex;
+	width:8.62in;
+	background-color: #272121;
+	height: 350px;
+}
+.name_role{
+  margin-top: 80px;
+  margin-left: 40px;
+}
+.name_role .name{
+	font-size: 45px;
+	color: #ffffff;
+	width: 120px;
+	font-style: initial;
+	font-weight: bold;
+}
+.line_1{
+	width: 100px;
+	height: 2px;
+	background-color: #504d4d;
+	margin-bottom: 20px;
+	margin-top: -20px;
+}
+.line_2{
+	width: 100px;
+	height: 2px;
+	background-color: #504d4d;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.name_role .role{
+	font-size: 20px;
+	color: #fff;
+}
+.left{
+	background: #d8c6a5;
+	width: 280px;
+	align-items: center;
+	height: 8.55in;
+	
+}
+.contact_wrap{
+	margin-left: 40px;
+	margin-top: 15px;
+}
+.skills_wrap{
+	margin-left: 40px;
+	margin-right: 10px;
+}
+
+
+.right{
+	width: calc(100% - 250px);
+	background-color: rgb(221, 216, 210);
+
+}
+.image_circle{
+	margin-left: 150px;
+}
+ .image_circle .img_holder{
+	align-self: center;
+}
+
+
+ .img_holder img{
+	width: 200px;
+	height: 320px;
+	
+}
+.title_left{
+	height: 30px;
+	margin-right: 30px;
+	text-align: start;
+	color: #000000;
+	font-size: 22px;
+	margin-bottom: 10px;
+	
+	width: 180px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-top: solid 1px black;
+	border-right: solid 1px black;
+	border-bottom: solid 1px black;
+}
+
+.pb{
+	padding-bottom: 5px;
+}
+
+.left .icon i{
+	font-size: 15px;
+	color: #060707;
+}
+
+
+
+.contact .li_wrap{
+	align-items: center;
+	width: 100%;
+}
+.thin_line{
+	width: 180px;
+	height: 1px;
+	background-color: black;
+	margin-top: -14px;
+}
+.contact .li_wrap .icon{
+	width: 45px;
+	height: 45px;
+    margin-top: 5px;
+	margin-right: 15px;
+}
+.contact .li_wrap .icon i{
+	height: 50px;
+	width: 50px;
+}
+.contact .li_wrap .text{
+	width: calc(100% - 30px);
+	word-break: break-word;
+	color: rgb(0, 0, 0);
+	font-size: 12px;
+	
+}
+.contact .li_wrap .text:hover{
+   text-decoration: underline rgb(7, 7, 7);
+}
+.degress{
+	display: flex;
+	margin-left: 20px;
+	align-items: stretch;
+}
+.d_name_collage{
+	padding-bottom: 5px;
+	margin-right: 70px;
+}
+.year{
+ padding-bottom: 2px;
+ color: #070707;
+ font-size: 10px;
+
+}
+.d_name{
+	font-size: 14px;
+	color: #070707;
+	padding-bottom: 4px;
+	font-weight: bold;
+}
+.cgpa{
+	font-size: 10px;
+	color: #020202;
+	padding-bottom: 4px;
+}
+.c_name{
+	font-size: 12px;
+	color: #020202;
+	padding-bottom: 4px;
+}
+.skill_level{
+	margin-bottom: 10px;
+	display: flex;
+}
+.skill_name{
+	font-size: 12px;
+	color: #000000;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	width:70px;
+	margin-right: 10px;
+}
+.point_90{
+	width: 6px;
+	height: 6px;
+	background-color: black;
+	margin-top: -5.6px;
+	margin-left: 80px;
+}
+.point_75{
+	width: 6px;
+	height: 6px;
+	background-color: black;
+	margin-top: -5.6px;
+	margin-left: 60px;
+}
+.point_50{
+	width: 6px;
+	height: 6px;
+	background-color: black;
+	margin-top: -5.6px;
+	margin-left: 40px;
+}
+.level{
+  width: 90px;
+  height: 6px;
+  border: solid 1px black;
+  margin-top: 5px;
+  
+}
+
+.hobbies{
+	margin-right: 30px;
+}
+
+.hobbies ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+.hobbies .li_wrap{
+	width: 35px;
+	height: 35px;
+	margin-bottom: 15px;
+	border-radius: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.li_wrap a{
+	text-decoration: none;
+	display: flex;
+	margin-top: 10px;
+}
+
+
+.hobbies .li_wrap .text{
+	margin-top: 5px;
+	
+}
+
+
+
+.hobbies .li_wrap:hover{
+	background: rgb(113, 153, 4);
+}
+
+.hobbies .li_wrap:hover .icon,
+.hobbies .li_wrap:hover .text{
+	color: #efedf1;
+}
+.hobbies .li_wrap:hover .icon i{
+	color:rgb(246, 247, 248);
+}
+
+.section_design{
+	margin-bottom: 10px;
+}
+.profile{
+	color:#efedf1; 
+	margin-left: 30px;
+	font-size: 22px;
+	margin-top: 30px;
+}
+ .about{
+	line-height: 25px;
+	font-size: 12px;
+	text-align: justify;
+	margin-left: 30px;
+	margin-right: 50px;
+	color: #efedf1;
+	
+}
+
+.right_title{
+	height: 30px;
+	margin-left: 20px;
+	text-align: center;
+	color: #030303;
+	font-size: 20px;
+	margin-bottom: 15px;
+	padding-top: 3px;
+	width: 500px;
+	text-transform: uppercase;
+	border-top: solid 1px black;
+	border-right: solid 1px black;
+	border-bottom: solid 1px black;
+	font-weight: bold;
+	display: flex;
+}
+.r_title_name{
+	margin-left: 20px;
+}
+
+.time_ex1{
+	
+	width:100px ;
+	color: rgb(8, 8, 8);
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 30px;
+}
+.detail_section{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.sub_title{
+	font-size: 15px;
+	color:rgb(0, 0, 0);
+	
+}
+.sub_title a{
+	color: #292b2f;
+	text-decoration: none;
+}
+.sub_title a:hover{
+	text-decoration: underline;
+	color: rgb(3, 79, 109);
+}
+.company{
+	font-size: 14px;
+}
+.detail{
+	font-size: 12px;
+	line-height: 18px;
+	text-align: justify;
+}
+.margin_section{
+	margin-top: 10px;
+}
+
+.achivement_name{
+	font-size: 16px;
+	margin-top: -25px;
+	margin-left: 30px;
+	color: rgb(0, 0, 0);
+}
+.achivement_star{
+	height: 20px;
+	width: 15px;
+	clip-path: polygon(100% 0, 100% 100%, 48% 61%, 0 100%, 0 50%, 0 0);
+	background-color:rgb(3, 3, 3);
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+.re_row{
+	display: flex;
+	justify-content: space-between;
+	margin-left:30px;
+	margin-right:30px
+
+}
+.re_name{
+	font-size: 16px;
+	color:rgb(5, 5, 5);
+}
+.re_designation{
+	font-size: 14px;
+	color:rgb(2, 2, 2);
+}
+.re_company{
+	font-size: 12px;
+	color:rgb(0, 0, 0);
+}
+.re_gmail{
+	font-size: 12px;
+	color:rgb(0, 0, 0);
+}
+
+
+
+
